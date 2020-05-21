@@ -1,0 +1,50 @@
+  259  cd test_git/
+  260  git init
+  261  touch processes.txt
+  262  ls
+  263  ps aux
+  264  ptocesses.txt << ps aux
+
+
+  265  ptocesses.txt < ps aux
+  266  ps aux >> processes.txt 
+  267  last
+  268  tail processes.txt 3
+  269  tail processes.txt 
+  270  clear
+  271  cp processes.txt copy.txt
+  272  mv copy.txt kopia/
+  273  mkdir kopia
+  274  mv copy.txt kopia/
+  275  cd kopia/
+  276  cw
+  277  wc
+  278  wc copy.txt 
+  279  wc --help
+  280  wc -l copy.txt 
+  281  ls
+  282  wc -l copy.txt >> copy.txt 
+  283  tail --help
+  284  tail -n 2 copy.txt 
+  285  grep
+  286  grep --help
+  287  grep "/bin" copy.txt 
+  288  grep "/bin" copy.txt >> copy.txt 
+  289  rm copy.txt 
+  290  cd ..
+  291  cp processes.txt kopia/copy.txt
+  292  wc -l >> processes.txt 
+  293  wc -l processes.txt >> processes.txt 
+  294  ls
+  295  tail -n 4 processes.txt 
+  296  grep "/bin" processes.txt >> processes.txt 
+  297  grep "/bin" kopia/copy.txt >> processes.txt 
+  298  history
+  299  tail -n 41 history
+  300  tail -n 41 'history'
+  301  tail -n 41 `history`
+  302  history tail -n 5
+  303  tail --help
+  304  history | tail -n 42
+  305  history | tail -n 50
+  306  history | tail -n 50 > commands.txt
